@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>VURN Tapper</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>💰 VURN Tapper</h1>
+    <div id="balance">VURN: 0</div>
+    <button id="tap-btn">👆 Тапни!</button>
+
+    <div class="menu">
+      <button onclick="openUpgrades()">🧬 Апгрейды</button>
+      <button onclick="openQuests()">🎯 Задания</button>
+      <button onclick="openLeaderboard()">🏆 Рейтинг</button>
+    </div>
+  </div>
+
+  <div id="popup" class="popup hidden"></div>
+
+  <script src="main.js"></script>
+</body>
+</html>
